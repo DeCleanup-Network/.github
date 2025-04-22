@@ -1,19 +1,22 @@
 ### 🌍 DeCleanup dApp | Tokenizing Real-World Environmental Impact
 
-**DeCleanup** is a Web3-powered dApp that rewards individuals and communities for cleaning polluted areas. Users submit **Proof of Impact** (before/after geotagged photos), get verified, and earn **DeCleanup Impact Products** along with **$DCU Points**, which will be claimable as tokens at launch.
+**DeCleanup** is a Web3-powered dApp that rewards individuals and communities for cleaning polluted areas. 
+* Start with submiting **Proof of Impact** (before/after geotagged photos)
+* Get your impact product verified 
+* And claim **DeCleanup Impact Products** along with **$DCU Points**
 
 #### Why it matters:
-♻️ Bridges blockchain and real-world sustainability  
+♻️ Connects user's real world impact with digital internet  
 🔎 Verifies cleanups with transparency and decentralization  
-🏆 Rewards users for real, verifiable actions  
-👥 Empowers communities to lead the change
+🏆 Rewards users for real, verifiable actions    
+👥 Empowers communities to lead the change    
+⛓️ Bridges blockchain networks and real-world sustainability 
 
 ---
 
 ### 🔧 Key Features (v2.1):
-- **Proof of Impact system** with photo + geotag validation  
-- **Team-based verification** process  
-- **Leveling system**, **streak bonuses**, and **referral rewards**  
+- **Proof of Impact system:** to validate of the submitted impact by photo + geotag    
+- **Leaderboard**, **Leveling**, and **referral rewards**
 - Transparent, fraud-resistant rewards flow via smart contracts
 
 ---
