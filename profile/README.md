@@ -2,7 +2,7 @@
 
 **DeCleanup** is a Web3-powered dApp that rewards individuals and communities for cleaning polluted areas. 
 * Start with submiting **Proof of Impact** (before/after geotagged photos)
-* Get your impact product verified 
+* Get your proof of impact verified 
 * And claim **DeCleanup Impact Products** along with **$DCU Points**
 
 #### Why it matters:
