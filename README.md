@@ -121,7 +121,7 @@ Users earn $DCU (initially non-tradable system points) for every verified cleanu
 Bridge partnerships with external Web3 ecosystems for cross-campaign incentives.
 
 ### Additional Information
-- Current version Figma design: Link
-- Full dApp prototype: Link
-- Impact Reporting: Link
+- Current version Figma design: [Link](https://www.figma.com/design/gcIv3YALbv8eFTJjXm3aUK/DCU-%E2%80%94-V2--Copy-?node-id=2654-7146&t=pBK1krNmTZHkliO1-0)
+- Full dApp prototype: [Link](https://www.canva.com/design/DAGa70P3H9I/g2rqJn8-hsOxOeyy8yqE4g/view?utm_content=DAGa70P3H9I&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h7ae241b0bb)
+- Impact Reporting: [Link](https://gap.karmahq.xyz/project/decentralized-cleanup-network-decleanup-network)
 
