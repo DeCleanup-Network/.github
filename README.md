@@ -270,11 +270,11 @@ A short, auto-generated **8-character alphanumeric** code (e.g., `DHY157B2`) tha
 
 ## Rewards Logic
 
-| Role                                 | Condition                                                  |
-| **Impact Circle Participant**        | Verified PoI submission marked with UIC                    | 10 DCU + 1 Impact Value and claimed DeCleanup Impact Product each level + 20 bonus DCU |
-| **Impact Circle Leader**             | Campaign leadership                                        | 10 DCU + 1 Impact Value and claimed DeCleanup Impact Product each level + 50 bonus DCU |
-| **Referral QR scans at the cleanup** | Referee must sign in and then submit proof of cleanup      | 2 DCU to the leader for every sign in, verified submission and claim of DeCleanup Impact Product |
-
+| Role                          | Condition                                                             | Reward                                                                                                 |
+|-------------------------------|----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
+| **Impact Circle Participant** | Verified PoI submission marked with UIC                              | 10 DCU + 1 Impact Value + claimed DeCleanup Impact Product each level + 20 bonus DCU                  |
+| **Impact Circle Leader**      | Campaign leadership                                                  | 10 DCU + 1 Impact Value + claimed DeCleanup Impact Product each level + 50 bonus DCU                  |
+| **Referral (QR Scans)**       | Referee must sign in and submit proof of cleanup                     | 2 DCU to the leader per valid sign-in, verified submission, and claim of DeCleanup Impact Product     |
 ---
 
 ## Smart Contract Interactions
