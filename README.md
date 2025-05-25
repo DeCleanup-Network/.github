@@ -1,12 +1,13 @@
 # 🌍 DeCleanup Network – Empowering Cleanups. Tokenizing Impact.
 
 ## 🧭 Mission
-DeCleanup Network motivates people worldwide to take meaningful action for the environment by ensuring that every cleanup is recognized, measurable, and rewarded. Through proof-based verification, gamified participation, and Web3 incentives, we drive transparent, real-world impact that scales from local communities to a global movement.
+We mobilize people worldwide to take meaningful environmental action by transforming cleanups into measurable, onchain environmental commodities - called Impact Products. Through transparent verification, community participation, and scalable incentive models, we drive real-world impact that bridges local actions with global significance.
 
 ---
 
 ## 🔗 What is DeCleanup Network?
-DeCleanup Network represents individuals and communities taking environmental action into their own hands and self-tokenizing their impact. Through our web3-powered dApp, users can document cleanups, verify their impact onchain, and earn DeCleanup Impact Product - tokenized Real World Impact, representing verifiable environmental action and dynamically growing in levels with each new cleanup submitted. Additionally, users are being rewarded with $DCU - an in-app currency that will be redeemable for a token post-TGE. 
+DeCleanup Network is a global system for coordinating environmental cleanups and turning them into long-lasting digital impact. It connects individuals, grassroots groups, and partner organizations into a shared ecosystem, where every cleanup becomes part of a broader effort to regenerate the planet. By converting actions into onchain dynamic Impact Products, we enable recognition, traceability, and participation across regions and communities.
+Additionally, users are being rewarded with $DCU - an in-app currency that will be redeemable for a token post-TGE. 
 DeCleanup Impact Products will be later integrated to impact marketplace - [Regen Bazaar](https://regenbazaar.com), allowing participants to earn additional rewards for staking them. 
 
 ---
@@ -14,19 +15,14 @@ DeCleanup Impact Products will be later integrated to impact marketplace - [Rege
 ## ⚠️ The Problem & Our Solution
 
 ### The Challenges
-- **Massive Environmental Pollution** – Over 2 billion tons of waste are generated globally each year, much of it ending up in oceans, forests, and cities, harming ecosystems and communities.
-- **Unrecognized Cleanup Efforts** – People and organizations take action, but their contributions often go unnoticed, offering no lasting accountability or motivation.
-- **No Scalable System** – There is no way to track, measure, or verify real-world cleanup efforts at scale.
-- **Lack of Transparency** – Without proof, it is difficult to validate real environmental impact, discouraging long-term participation.
+- Lack of Incentives for Cleanup Action
+- Limited Recognition and Quantification of Personal Impact
+- Weak Global Coordination
 
 ### Our Solution
-DeCleanup solves these by connecting Web3 infrastructure to Real World Impact of cleanups:
-
-- **Tokenized Environmental Action**: Every verified cleanup becomes an onchain dynamic DeCleanup Impact Product, tied to Impact Value parameter and growing in levels with every submission.   
-- **Verifiable Proof of Impact**: Submissions are validated through photos, timestamps, and geolocation, then stored permanently.  
-- **Gamified Rewards**: Users earn $DCU for every verified cleanup and level up through streaks and participation bonuses, checking your rank at the leaderboard.  
-- **Transition to Real Value**: $DCU, earned as system points, will be redeemable as tokens post-TGE, giving contributors long-term stake in the network.
-
+- Tokenizing Impact into Impact Products: we turn each cleanup into a dynamic onchain Impact Product - a visible, growing asset tied to real-world action. This creates lasting value and recognition beyond the moment of cleanup.
+- Scalable Personal Recognition System: participants earn visibility and status through a system designed to reflect their actual environmental contributions - unlocking new levels, metrics, and future benefits based on their actions.
+- Global Network of Coordinated Action: through our ambassador program, partner communities, and decentralized tech, we connect local cleanup efforts into one shared ecosystem - aligned, visible, and scalable across borders.
 ---
 
 ## 🛠️ How It Works
