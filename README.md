@@ -109,6 +109,245 @@ Users earn $DCU (initially non-tradable system points) for every verified cleanu
 - Multichain expansion: multiple EVM-compatible chains, plus Stellar.
 - Start of Regen Bazaar integration - users will be able to stake their DeCleanup Impact Products at Regen Bazaar to earn $REBAZ tokens, introducing DeFi-powered incentives for impact-based staking. 
 
+# DeCleanup dApp V2.2 – Developer Flow Documentation
+
+## Overview
+
+The **DeCleanup dApp V2.2** focuses on **Impact Circles** – collaborative, time-bound, and location-based cleanup campaigns. Users can **create** or **join** campaigns through the platform. Each Impact Circle can include a reward pool and concludes with a **campaign NFT** minted upon completion.
+
+---
+
+## Functional Structure
+
+### Entry Points (Dashboard Buttons)
+
+- **Create Impact Circle**  
+  → For users who want to lead a cleanup campaign.
+
+- **Join Impact Circle**  
+  → For users who want to participate in existing campaigns via list or map.
+
+- **My Impact Circles**  
+  → View and manage campaigns created by the logged-in user.
+
+---
+
+## 1. Create Impact Circle (User A - Campaign Creator)
+
+### UI Flow
+
+1. **Page Header**
+   - Title: `Create Impact Circle`
+   - Subheading: _Lead collaborative cleanups and get extra bonuses_
+
+2. **Form Fields**
+   - Campaign Name (string)
+   - Description (text)
+   - Location (string)
+   - Start & End Date (date)
+   - Participant Limit (integer)
+   - Community Reward Pool (integer)
+   - Contact Info (email, Telegram, etc.)
+   - Upload Image (badge representation)
+
+3. **On Submission**
+   - Trigger smart contract deployment:
+     - Logs metadata
+     - Stores image hash (e.g. IPFS CID)
+     - Collects deployment fee
+   - Success UI:
+     - “Congratulations! You’ve created your Impact Circle campaign.”
+     - “You’ll receive additional DCU upon verification and minting.”
+
+4. **Social Sharing Prompt**
+   - Button: `Share on X`
+   - Pre-filled message:
+     > “I’ve just created my cleanup campaign on https://app.decleanup.net/linktocampaign  
+     > Join me on [DATE] at [LOCATION].  
+     > Let’s tokenize the real-world impact of cleanups by simply submitting our results!”
+
+---
+
+## UIC System (Unique Impact Code)
+
+### What is UIC?
+
+A short, auto-generated **8-character alphanumeric** code (e.g., `DHY157B2`) that uniquely identifies a campaign.
+
+### Key Functions
+
+1. **Participant Check-In**
+   - Scannable QR with UIC logs real-time presence.
+
+2. **Data Linking**
+   - Associates PoI submissions to correct campaign.
+
+3. **POAP & NFT Gating**
+   - Only verified attendees can mint post-campaign rewards.
+
+4. **Sharing & Discoverability**
+   - UIC in URLs: `app.decleanup.net/circle/DHY157B2`
+
+### Technical Notes
+
+- Generated at contract deployment
+- Stored on-chain in campaign metadata
+- Embedded in:
+  - QR code
+  - Campaign page
+  - Dashboard
+
+---
+
+## Campaign Page
+
+- **URL**: `/impact-circle/:id`
+- **Editable Fields**: Description, Dates, Image, Reward Pool
+- **Features**:
+  - QR Code for check-in
+  - POAP-like NFT minting:
+    - Available 1 day post-campaign
+    - Requires participant check-in + PoI
+  - Dashboard access via “My Impact Circles”
+
+---
+
+## 2. Join Impact Circle (User B - Participant)
+
+### UI Flow
+
+1. **Page Header**
+   - Title: `Join Impact Circle`
+   - Subheading: _Find and join cleanups near you_
+   - Display:
+     - Active campaigns (list or map)
+     - Search by location
+     - QR scanner interface
+
+2. **Campaign Preview Card**
+   - Name, Organizer, Description, Location, Dates
+   - Participants limit
+   - Community reward pool
+
+3. **Interaction Options**
+   - Show on Map
+   - Set Reminder
+   - Contact Organizer
+
+4. **Back Button**
+   - Returns to campaign search
+
+---
+
+## Event Check-In Flow
+
+### Step 1: UIC & QR Code (Creator Side)
+
+- Generated on campaign creation
+- Displayed at cleanup site
+- Counts as **referral** → extra DCU for each signer
+
+### Step 2: Scan QR (Participant)
+
+- QR opens campaign check-in flow
+- Prompts wallet connection if not logged in
+- Logs:
+  - `userAddress`
+  - `UIC`
+  - `timestamp`
+  - (optional) `geolocation`
+
+> **Confirmation Message**:  
+> _“Thank you for joining Impact Circle Central Moscow. Your additional rewards will be distributed upon your proof submission and claim of the next level of DeCleanup Impact Product.”_
+
+- Button: `TOKENIZE IMPACT` → leads to PoI submission
+
+### Step 3: Proof of Impact (PoI)
+
+- Valid for 24 hours post-check-in
+- Links PoI to the correct UIC
+- Marks the participant as:
+  - Eligible for rewards
+  - Counted in campaign stats
+
+## Rewards Logic
+
+| Role                                 | Condition                                                  |
+| **Impact Circle Participant**        | Verified PoI submission marked with UIC                    | 10 DCU + 1 Impact Value and claimed DeCleanup Impact Product each level + 20 bonus DCU |
+| **Impact Circle Leader**             | Campaign leadership                                        | 10 DCU + 1 Impact Value and claimed DeCleanup Impact Product each level + 50 bonus DCU |
+| **Referral QR scans at the cleanup** | Referee must sign in and then submit proof of cleanup      | 2 DCU to the leader for every sign in, verified submission and claim of DeCleanup Impact Product |
+
+---
+
+## Smart Contract Interactions
+
+### 1. Campaign Deployment
+
+- Triggered by form submission
+- Stores metadata:
+  - Name, description, dates, location, limits, reward pool, contact, imageCID
+- Auto-generates and stores UIC
+- Requires a gas/platform fee
+
+### 2. Reward Pool Creation (Optional)
+
+- User deposits tokens
+- Locked until campaign ends
+- Distributed post-verification
+
+### 3. Participant Check-In
+
+- Wallet + location verification
+- Logs address, time, and UIC
+- Prevents duplicates and spoofs
+
+### 4. Proof of Impact Submission
+
+- Submitted with photo/video
+- Linked to verified check-in
+- Enables:
+  - DCU rewards
+  - NFT minting
+  - Product level upgrades
+
+### 5. Campaign Completion & Minting
+
+- Creator can mint campaign **Impact Product**
+- Verified participants unlock **POAP NFT**
+- Leader receives additional rewards
+
+---
+
+## Dependencies & Assets
+
+### Frontend
+
+- TypeScript-based UI
+- Pages:
+  - Create / Join Impact Circle
+  - My Campaigns
+  - Individual Campaign Page
+  - PoI Submission
+  - QR Scanner
+- Wallet Integration (WalletConnect, MetaMask)
+
+### Backend
+
+- Campaign registry (UIC metadata cache)
+- IPFS for image storage
+- Check-in logs with geolocation
+- PoI submission tracking
+- PoI verification flow (centralized or delegated)
+- X (Twitter) sharing integration
+
+### Smart Contracts
+
+- `ImpactCircleFactory` – campaign creator
+- `ImpactCircleInstance` – per-campaign logic
+- `RewardPoolManager` – optional reward pool
+- `POAPManager` – NFT/POAP distribution
+- DCU allocation logic linked to validated actions
+---
 ### 🔭 V2.3 – Cleanup Campaigns, Teams & Impact Circles
 - Multi-chain POAPs (Proof of Attendance Protocol) - non-transferable ERC-721 NFTs, issued to users who participate in verified Impact Circles across different blockchains, they act as verifiable, on-chain proof of environmental contribution and may hold future staking, reputation, or governance utilities, offering enhanced recognition for sustained contributions.  
 - Expanded reward system - introduction of additional tiers of Impact Product to recognize long-term commitment and larger contributions.  
