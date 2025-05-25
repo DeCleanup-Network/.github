@@ -109,8 +109,6 @@ Users earn $DCU (initially non-tradable system points) for every verified cleanu
 - Multichain expansion: multiple EVM-compatible chains, plus Stellar.
 - Start of Regen Bazaar integration - users will be able to stake their DeCleanup Impact Products at Regen Bazaar to earn $REBAZ tokens, introducing DeFi-powered incentives for impact-based staking. 
 
-# DeCleanup dApp V2.2 – Developer Flow Documentation
-
 ## Overview
 
 The **DeCleanup dApp V2.2** focuses on **Impact Circles** – collaborative, time-bound, and location-based cleanup campaigns. Users can **create** or **join** campaigns through the platform. Each Impact Circle can include a reward pool and concludes with a **campaign NFT** minted upon completion.
