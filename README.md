@@ -212,7 +212,7 @@ A short, auto-generated **8-character alphanumeric** code (e.g., `DHY157B2`) tha
 
 1. **Page Header**
    - Title: `Join Impact Circle`
-   - Subheading: _Find and join cleanups near you_
+   - Subheading: _Find cleanup near you_
    - Display:
      - Active campaigns (list or map)
      - Search by location
