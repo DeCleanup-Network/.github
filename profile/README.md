@@ -77,14 +77,13 @@ A secure and transparent flow that verifies real-world cleanup efforts using vis
 These are soulbound dynamic NFTs that represent tokenized environmental contributions.  
 - Non-transferable, tied to the wallet of the person who cleaned up.  
 - Represent Real World Impact (RWI) and evolve based on verified activity.  
-- Automatically update onchain metadata: level progression, streaks, and total Impact Value.  
+- Automatically update onchain metadata: level progression, streaks, and total Impact Value - determining future IRL Impact Rank.  
 - Serve as future gateways to additional utility (e.g., staking on Regen Bazaar for APY in native token).
 
 #### 💰 $DCU Accumulation System
 Users earn $DCU (initially non-tradable system points) for every verified cleanup and receiving level of Impact Product upgrage - 10 DCU per level. 
 - Bonus rewards are available as well.
-- $DCU can be redeemed into actual tokens post-TGE.
-- Another parameter user is gaining is Impact Value, showcasing the importance of their action and determining future IRL Impact Rank. 
+- $DCU can be redeemed into actual tokens post-TGE. 
 
 #### Leaderboard and Ranking
 We rank users by accumulated DCU, which is basically the first point we can judge their activity on the app.
