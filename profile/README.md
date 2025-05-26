@@ -29,15 +29,6 @@ DeCleanup solves these by connecting Web3 infrastructure to Real World Impact of
 
 ---
 
-## 🛠️ How It Works
-
-### Clean Up, Snap, Earn (3-Step Process)
-1. **Clean Up** – Find or organize a cleanup in your local area.  
-2. **Snap** – Capture before-and-after photos with geotags and timestamps.  
-3. **Earn** – Submit via the dApp, get verified, receive DeCleanup Impact Products, and accumulate $DCU rewards.
-
----
-
 ## ✅ Existing Use Cases (V1 Campaigns)
 
 ### 🇯🇵 HEM Japan
@@ -49,18 +40,14 @@ Pesathon campaign brought together cleanup and environmental education in Nigeri
 - **2024 Impact**: 9 users, 4 verified events
 
 ---
+## 🛠️ How Does the dApp Work?
 
-## 🧩 Key Features in DeCleanup dApp (v2.1)
-
-- **Proof of Impact Verification** – Timestamps, geotags, and image analysis ensure authenticity.  
-- **Impact Product System** – Each verified cleanup earns you a collectible and levelable digital item (currently 10 levels).  
-- **$DCU Accumulation** – Users earn $DCU within the system, which can be claimed as real tokens after TGE.  
-- **Leaderboard & Rankings** – Compete, track progress, and gain recognition.  
-- **Referral Rewards** – Invite friends to clean and earn bonus $DCU after successful verifications.  
-- **Anti-Fraud by Design** – Verifications will evolve from team-based to decentralized, staking-enabled community validation.
+### Clean Up, Snap, Earn (3-Step Process)
+1. **Clean Up** – Find or organize a cleanup in your local area.  
+2. **Snap** – Capture before-and-after photos with geotags and timestamps.  
+3. **Earn** – Submit via the dApp, get verified, receive DeCleanup Impact Products, and accumulate $DCU rewards.
 
 ---
-
 ## 🛣️ Roadmap – Building a Scalable, Verifiable Cleanup Ecosystem
 
 ### 🔄 Current Development: DeCleanup dApp V2.1
@@ -94,9 +81,22 @@ These are soulbound dynamic NFTs that represent tokenized environmental contribu
 - Serve as future gateways to additional utility (e.g., staking on Regen Bazaar for APY in native token).
 
 #### 💰 $DCU Accumulation System
-Users earn $DCU (initially non-tradable system points) for every verified cleanup.  
-- Bonus rewards for activity streaks and verified referral actions.  
+Users earn $DCU (initially non-tradable system points) for every verified cleanup and receiving level of Impact Product upgrage - 10 DCU per level. 
+- Bonus rewards are available as well.
 - $DCU can be redeemed into actual tokens post-TGE.
+- Another parameter user is gaining is Impact Value, showcasing the importance of their action and determining future IRL Impact Rank. 
+
+#### Leaderboard and Ranking
+We rank users by accumulated DCU, which is basically the first point we can judge their activity on the app.
+
+#### Streaks
+User can perform consistent cleanups and earn additional 3 DCU per each level upgrade, if their submission of PoI was done at least once a week.
+
+#### Referral Rewards 
+Invite friends to clean and earn bonus $DCU after successful verifications - 1 DCU per per referee who successfully submitted PoI, got it verified and received Impact Product. 
+
+#### Anti-Fraud by Design
+Verifications will evolve from team-based to decentralized, staking-enabled community validation.
 
 ---
 
@@ -109,15 +109,15 @@ Users earn $DCU (initially non-tradable system points) for every verified cleanu
 - Multichain expansion: multiple EVM-compatible chains, plus Stellar.
 - Start of Regen Bazaar integration - users will be able to stake their DeCleanup Impact Products at Regen Bazaar to earn $REBAZ tokens, introducing DeFi-powered incentives for impact-based staking. 
 
-## Overview
+### Impact Circles
 
 The **DeCleanup dApp V2.2** focuses on **Impact Circles** – collaborative, time-bound, and location-based cleanup campaigns. Users can **create** or **join** campaigns through the platform. Each Impact Circle can include a reward pool and concludes with a **campaign NFT** minted upon completion.
 
 ---
 
-## Functional Structure
+#### Functional Structure
 
-### Entry Points (Dashboard Buttons)
+**Entry Points (Dashboard Buttons)**
 
 - **Create Impact Circle**  
   → For users who want to lead a cleanup campaign.
@@ -128,11 +128,9 @@ The **DeCleanup dApp V2.2** focuses on **Impact Circles** – collaborative, tim
 - **My Impact Circles**  
   → View and manage campaigns created by the logged-in user.
 
----
+#### 1. Create Impact Circle (User A - Campaign Creator)
 
-## 1. Create Impact Circle (User A - Campaign Creator)
-
-### UI Flow
+**UI Flow**
 
 1. **Page Header**
    - Title: `Create Impact Circle`
@@ -164,15 +162,11 @@ The **DeCleanup dApp V2.2** focuses on **Impact Circles** – collaborative, tim
      > Join me on [DATE] at [LOCATION].  
      > Let’s tokenize the real-world impact of cleanups by simply submitting our results!”
 
----
+**UIC System (Unique Impact Code)**
 
-## UIC System (Unique Impact Code)
+What is UIC? A short, auto-generated **8-character alphanumeric** code (e.g., `DHY157B2`) that uniquely identifies a campaign.
 
-### What is UIC?
-
-A short, auto-generated **8-character alphanumeric** code (e.g., `DHY157B2`) that uniquely identifies a campaign.
-
-### Key Functions
+Key Functions
 
 1. **Participant Check-In**
    - Scannable QR with UIC logs real-time presence.
@@ -186,7 +180,7 @@ A short, auto-generated **8-character alphanumeric** code (e.g., `DHY157B2`) tha
 4. **Sharing & Discoverability**
    - UIC in URLs: `app.decleanup.net/circle/DHY157B2`
 
-### Technical Notes
+Technical Notes
 
 - Generated at contract deployment
 - Stored on-chain in campaign metadata
@@ -195,11 +189,9 @@ A short, auto-generated **8-character alphanumeric** code (e.g., `DHY157B2`) tha
   - Campaign page
   - Dashboard
 
----
+**Campaign Page**
 
-## Campaign Page
-
-- **URL**: `/impact-circle/:id`
+- **URL**: `/impact-circle/:UIC`
 - **Editable Fields**: Description, Dates, Image, Reward Pool
 - **Features**:
   - QR Code for check-in
@@ -208,11 +200,9 @@ A short, auto-generated **8-character alphanumeric** code (e.g., `DHY157B2`) tha
     - Requires participant check-in + PoI
   - Dashboard access via “My Impact Circles”
 
----
+#### 2. Join Impact Circle (User B - Participant)
 
-## 2. Join Impact Circle (User B - Participant)
-
-### UI Flow
+**UI Flow**
 
 1. **Page Header**
    - Title: `Join Impact Circle`
@@ -235,17 +225,15 @@ A short, auto-generated **8-character alphanumeric** code (e.g., `DHY157B2`) tha
 4. **Back Button**
    - Returns to campaign search
 
----
+**Event Check-In Flow**
 
-## Event Check-In Flow
-
-### Step 1: UIC & QR Code (Creator Side)
+Step 1: UIC & QR Code (Creator Side)
 
 - Generated on campaign creation
 - Displayed at cleanup site
 - Counts as **referral** → extra DCU for each signer
 
-### Step 2: Scan QR (Participant)
+Step 2: Scan QR (Participant)
 
 - QR opens campaign check-in flow
 - Prompts wallet connection if not logged in
@@ -260,7 +248,7 @@ A short, auto-generated **8-character alphanumeric** code (e.g., `DHY157B2`) tha
 
 - Button: `TOKENIZE IMPACT` → leads to PoI submission
 
-### Step 3: Proof of Impact (PoI)
+Step 3: Proof of Impact (PoI)
 
 - Valid for 24 hours post-check-in
 - Links PoI to the correct UIC
@@ -268,7 +256,7 @@ A short, auto-generated **8-character alphanumeric** code (e.g., `DHY157B2`) tha
   - Eligible for rewards
   - Counted in campaign stats
 
-## Rewards Logic
+#### Rewards Logic
 
 | Role                          | Condition                                                             | Reward                                                                                                 |
 |-------------------------------|----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
@@ -277,9 +265,9 @@ A short, auto-generated **8-character alphanumeric** code (e.g., `DHY157B2`) tha
 | **Referral (QR Scans)**       | Referee must sign in and submit proof of cleanup                     | 2 DCU to the leader per valid sign-in, verified submission, and claim of DeCleanup Impact Product     |
 ---
 
-## Smart Contract Interactions
+#### Smart Contract Interactions
 
-### 1. Campaign Deployment
+**1. Campaign Deployment**
 
 - Triggered by form submission
 - Stores metadata:
@@ -287,19 +275,19 @@ A short, auto-generated **8-character alphanumeric** code (e.g., `DHY157B2`) tha
 - Auto-generates and stores UIC
 - Requires a gas/platform fee
 
-### 2. Reward Pool Creation (Optional)
+**2. Reward Pool Creation (Optional)**
 
 - User deposits tokens
 - Locked until campaign ends
 - Distributed post-verification
 
-### 3. Participant Check-In
+**3. Participant Check-In**
 
 - Wallet + location verification
 - Logs address, time, and UIC
 - Prevents duplicates and spoofs
 
-### 4. Proof of Impact Submission
+**4. Proof of Impact Submission**
 
 - Submitted with photo/video
 - Linked to verified check-in
@@ -308,17 +296,15 @@ A short, auto-generated **8-character alphanumeric** code (e.g., `DHY157B2`) tha
   - NFT minting
   - Product level upgrades
 
-### 5. Campaign Completion & Minting
+**5. Campaign Completion & Minting**
 
 - Creator can mint campaign **Impact Product**
 - Verified participants unlock **POAP NFT**
 - Leader receives additional rewards
 
----
+#### Dependencies & Assets
 
-## Dependencies & Assets
-
-### Frontend
+**Frontend**
 
 - TypeScript-based UI
 - Pages:
@@ -329,7 +315,7 @@ A short, auto-generated **8-character alphanumeric** code (e.g., `DHY157B2`) tha
   - QR Scanner
 - Wallet Integration (WalletConnect, MetaMask)
 
-### Backend
+**Backend**
 
 - Campaign registry (UIC metadata cache)
 - IPFS for image storage
@@ -338,14 +324,16 @@ A short, auto-generated **8-character alphanumeric** code (e.g., `DHY157B2`) tha
 - PoI verification flow (centralized or delegated)
 - X (Twitter) sharing integration
 
-### Smart Contracts
+**Smart Contracts**
 
 - `ImpactCircleFactory` – campaign creator
 - `ImpactCircleInstance` – per-campaign logic
 - `RewardPoolManager` – optional reward pool
 - `POAPManager` – NFT/POAP distribution
 - DCU allocation logic linked to validated actions
+  
 ---
+
 ### 🔭 V2.3 – Cleanup Campaigns, Teams & Impact Circles
 - Multi-chain POAPs (Proof of Attendance Protocol) - non-transferable ERC-721 NFTs, issued to users who participate in verified Impact Circles across different blockchains, they act as verifiable, on-chain proof of environmental contribution and may hold future staking, reputation, or governance utilities, offering enhanced recognition for sustained contributions.  
 - Expanded reward system - introduction of additional tiers of Impact Product to recognize long-term commitment and larger contributions.  
@@ -360,7 +348,10 @@ Bridge partnerships with external Web3 ecosystems for cross-campaign incentives.
 ### Additional Information
 - Current version Figma design: [Link](https://www.figma.com/design/gcIv3YALbv8eFTJjXm3aUK/DCU-%E2%80%94-V2--Copy-?node-id=2654-7146&t=pBK1krNmTZHkliO1-0)
 - Full dApp prototype: [Link](https://www.canva.com/design/DAGa70P3H9I/g2rqJn8-hsOxOeyy8yqE4g/view?utm_content=DAGa70P3H9I&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h7ae241b0bb)
+- Full dApp Flow: [Link](https://docs.google.com/document/d/1QnmXjyk4HXUQWBddS9cXVdVbL0JVteP_CewQtVu3L7I/edit?tab=t.0#heading=h.rthmhi9d6d4i)
+- V2.2 Flow (Impact Circles): [Link](https://www.canva.com/design/DAGoWIsYRDU/YftBQR2y9lW-dHzjXR6y9A/edit)
 - Impact Reporting: [Link](https://gap.karmahq.xyz/project/decentralized-cleanup-network-decleanup-network)
+
 
 
 
