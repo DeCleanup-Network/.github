@@ -354,7 +354,9 @@ A short, auto-generated **8-character alphanumeric** code (e.g., `DHY157B2`) tha
 Bridge partnerships with external Web3 ecosystems for cross-campaign incentives.
 
 ### Additional Information
-- Current version Figma design: [Link](https://www.figma.com/design/gcIv3YALbv8eFTJjXm3aUK/DCU-%E2%80%94-V2--Copy-?node-id=2654-7146&t=pBK1krNmTZHkliO1-0)
+- dApp V2.1 Figma design: [Link](https://www.figma.com/design/gcIv3YALbv8eFTJjXm3aUK/DCU-%E2%80%94-V2--Copy-?node-id=2654-7146&t=pBK1krNmTZHkliO1-0)
 - Full dApp prototype: [Link](https://www.canva.com/design/DAGa70P3H9I/g2rqJn8-hsOxOeyy8yqE4g/view?utm_content=DAGa70P3H9I&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h7ae241b0bb)
+- dApp V2.2 Prototype: [Link](https://www.canva.com/design/DAGoWIsYRDU/UNLQl4_yVcW0zGdxWRg8zw/view?utm_content=DAGoWIsYRDU&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=ha8c32aebd4)
+- dApp V2.2 Specs: [Link](https://docs.google.com/document/d/1fi6T24HIh89t9ny9m68naapchuKLaV9jaSKP5jx5J7M/edit?usp=sharing)
 - Impact Reporting: [Link](https://gap.karmahq.xyz/project/decentralized-cleanup-network-decleanup-network)
 
