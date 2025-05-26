@@ -350,8 +350,3 @@ Bridge partnerships with external Web3 ecosystems for cross-campaign incentives.
 - Full dApp Flow: [Link](https://docs.google.com/document/d/1QnmXjyk4HXUQWBddS9cXVdVbL0JVteP_CewQtVu3L7I/edit?tab=t.0#heading=h.rthmhi9d6d4i)
 - V2.2 Flow (Impact Circles): [Link](https://www.canva.com/design/DAGoWIsYRDU/YftBQR2y9lW-dHzjXR6y9A/edit)
 - Impact Reporting: [Link](https://gap.karmahq.xyz/project/decentralized-cleanup-network-decleanup-network)
-
-
-
-
-
