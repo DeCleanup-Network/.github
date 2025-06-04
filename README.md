@@ -260,7 +260,7 @@ The **GreenPill Network** is a decentralized ecosystem of **local Chapters, Guil
 **Impact DAOs & IRL Orgs**
 NGOs, community leaders, and impact projects can **integrate DeCleanup** as a **backend engine** for **verifiable cleanups and on-chain reporting**.
 
-**Want to become a partner or campaign organizer?** [Reach out!](https://t.me/DecentralizedCleanup](https://t.me/DecentralizedCleanup)
+**Want to become a partner or campaign organizer?** [Reach out](https://t.me/DecentralizedCleanup](https://t.me/DecentralizedCleanup)
 
 ---
 
