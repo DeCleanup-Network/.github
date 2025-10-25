@@ -340,6 +340,13 @@ Cross-chain Impact Products, unified identity, multichain Hypercerts and POAPs.
 
 ![Roadmap](https://beige-defiant-spoonbill-537.mypinata.cloud/ipfs/bafkreiena6xdo4gzdtraxxnov6lwz5tyak4dxkmtynf2ndvc4c7ek6x22m)
 
+### V2.1 - New Features & Integrations (currently in development)
+- Leaderboard and dashboard
+- Streak system
+- Before/After cleanup photo submission with geotagging
+- Optional impact data form collection (for Hypercerts)
+- Launch on Alfajores testnet
+  
 ### V2.2 – Enhanced Impact & Governance (Q1-Q2 2025)
 
 - $DCU token launch on Celo (non-tradable)
