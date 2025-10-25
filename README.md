@@ -13,13 +13,13 @@ DeCleanup Network is global infrastructure for coordinating environmental cleanu
 
 ## Mission
 
-Transform cleanups into measurable, blockchain-verified environmental commodities—**Impact Products**—through transparent verification, community governance, and scalable incentive models.
+Transform cleanups into measurable, blockchain-verified environmental commodities - **Impact Products** - through transparent verification, community governance, and scalable incentive models.
 
 ---
 
 ## The Problem
 
-- No lasting incentives for cleanup action
+- Limited incentives for cleanup action
 - No standardized way to quantify and prove environmental contribution
 - Isolated local efforts with no shared infrastructure
 
