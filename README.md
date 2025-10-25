@@ -7,7 +7,7 @@
 
 DeCleanup Network is global infrastructure for coordinating environmental cleanups and converting them into permanent, blockchain-verified impact. We connect individuals, grassroots groups, and organizations into a shared ecosystem where every cleanup becomes an onchain **Impact Product**.
 
-**Live dApp:** [app.decleanup.net](https://app.decleanup.net)
+**Live V1 dApp:** [dapp.decleanup.net](https://dapp.decleanup.net)
 
 ---
 
