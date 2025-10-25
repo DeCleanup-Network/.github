@@ -490,7 +490,7 @@ Cross-chain Impact Products, unified identity, multichain Hypercerts and POAPs.
 ## Resources
 
 ### Documentation & Design
-- **V2.1 Figma:** [Design](https://www.figma.com/design/gcIv3YALbv8eFTJjXm3aUK/DCU)
+- **V2.1 Figma:** [Design](https://www.figma.com/file/gcIv3YALbv8eFTJjXm3aUK?node-id=0:1&locale=en&type=design)
 - **V2.1 Prototype:** [Canva](https://www.canva.com/design/DAGa70P3H9I/g2rqJn8-hsOxOeyy8yqE4g/view)
 - **V2.2 Prototype:** [Canva](https://www.canva.com/design/DAGoWIsYRDU/UNLQl4_yVcW0zGdxWRg8zw/view)
 - **V2.2 Specs:** [Google Docs](https://docs.google.com/document/d/1fi6T24HIh89t9ny9m68naapchuKLaV9jaSKP5jx5J7M/edit)
