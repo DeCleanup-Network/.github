@@ -131,7 +131,7 @@ Tokenized Real World Impact (RWI) as onchain commodities using dynamic NFT techn
 
 ### Characteristics
 
-- **Soulbound:** Non-transferable
+- **Soulbound:** Non-transferable (with exceptions, e.g. staking on Regen Bazaar)
 - **Dynamic:** Metadata updates automatically
 - **Verifiable:** Onchain proof of contributions
 - **Evolving:** Grows with cleanup history
@@ -168,7 +168,7 @@ After verification (2-24 hours), manually claim Impact Product. Metadata updates
 
 ## Hypercerts
 
-Every 10 verified cleanups automatically generates a **Hypercert**—permanent blockchain certificate (ERC-1155) aggregating cumulative impact.
+Every 10 verified cleanups automatically generates a **Hypercert** - permanent blockchain certificate (ERC-1155) aggregating cumulative impact.
 
 ### Structure
 
@@ -210,7 +210,7 @@ Non-tradable governance, reputation, and community token.
 - Vote in governance (via Gardens.fund)
 - Access premium features and analytics
 
-### What You Cannot Do
+### What You Cannot Do (yet)
 
 - Trade on exchanges
 - Transfer to other wallets
@@ -220,10 +220,11 @@ Non-tradable governance, reputation, and community token.
 ### Ways to Earn
 
 - **10 $DCU** per verified cleanup
-- **+5 $DCU** streak bonus (1 cleanup every 7 days)
+- **+3 $DCU** streak bonus (1 cleanup every 7 days)
 - **+2 $DCU** referral bonus (per referred user's first cleanup)
+- **+2 $DCU** submitted impact data form
 - **+1 $DCU** verification reward (per validated submission)
-- **+10 $DCU** Hypercert milestone bonus
+- **+5 $DCU** Hypercert milestone bonus (every 10th cleanup)
 
 ### Token Distribution
 
@@ -242,7 +243,7 @@ Non-tradable governance, reputation, and community token.
 
 **Staking Tiers:**
 - **100 $DCU:** Verifier access, 1 $DCU per validation
-- **500 $DCU:** Governance voting
+- **200 $DCU:** Governance voting
 - **1000 $DCU:** Advanced analytics
 
 ### Governance via Gardens.fund
@@ -256,7 +257,7 @@ Non-tradable governance, reputation, and community token.
 - Ambassador guidelines
 
 **Requirements:**
-- 500 $DCU staked and locked minimum
+- 200 $DCU staked and locked minimum
 - Active ecosystem participation
 - Community support threshold for proposals
 - Transparent onchain outcomes
