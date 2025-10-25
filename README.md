@@ -75,7 +75,7 @@ University-based cleanup and education campaign via UNNPloggas. DeCleanup provid
 
 ### Submitting Proof of Impact
 
-1. Visit [app.decleanup.net](https://app.decleanup.net)
+1. Visit [dapp.decleanup.net](https://dapp.decleanup.net) - this is V1 dApp with limited features and capabilities, note that not we are improving contracts and UX/UI to make it look the way it described below)
 2. Connect wallet (MetaMask, WalletConnect, Coinbase Wallet)
 3. Click "Submit Cleanup"
 4. Upload before/after photos with geotags
