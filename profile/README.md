@@ -338,8 +338,7 @@ Cross-chain Impact Products, unified identity, multichain Hypercerts and POAPs.
 
 ## Roadmap
 
-![Roadmap](https://beige-defiant-spoonbill-537.mypinata.cloud/ipfs/bafkreiena6xdo4gzdtraxxnov6lwz5tyak4dxkmtynf2ndvc4c7ek6x22m)
-
+![Roadmap](https://beige-defiant-spoonbill-537.mypinata.cloud/ipfs/bafybeibzol5ko2csr2dsuumxbwixujayiz7owyarui5tmqutnl2hbksozi)
 ### V2.1 - New Features & Integrations (currently in development)
 - Leaderboard and dashboard
 - Streak system
