@@ -13,7 +13,7 @@ DeCleanup Network is global infrastructure for coordinating environmental cleanu
 
 ## Mission
 
-Transform cleanups into measurable, blockchain-verified environmental commodities - **Impact Products** - through transparent verification, community governance, and scalable incentive models.
+We mobilize people worldwide to take meaningful environmental action by transforming cleanups into measurable, onchain environmental commodities - called Impact Products. Through transparent verification, community participation, and scalable incentive models, we drive real-world impact that bridges local actions with global significance.
 
 ---
 
@@ -25,17 +25,11 @@ Transform cleanups into measurable, blockchain-verified environmental commoditie
 
 ## Our Solution
 
-**Tokenizing Impact into Impact Products**  
-Each cleanup becomes a dynamic onchain Impact Product—a verifiable, growing asset tied to real-world action.
-
-**Hypercerts Integration**  
-Every 10 verified cleanups generates a permanent blockchain certificate (ERC-1155) aggregating cumulative impact data, portable across Web3 ecosystems.
-
-**Community Verification**  
-Decentralized validation through staked verifiers ensures scalability and legitimacy.
-
-**Global Network**  
-Ambassador program and decentralized technology connect local cleanup efforts into one shared ecosystem.
+- **Tokenizing Impact into Impact Products** - we turn each cleanup into a dynamic onchain Impact Product - a visible, growing asset tied to real-world action. This creates lasting value and recognition beyond the moment of cleanup.
+-  **Scalable Personal Recognition System** - participants earn visibility and status through a system designed to reflect their actual environmental contributions - unlocking new levels, metrics, and future benefits based on their actions.
+-   **Community Verification**  - Decentralized validation through staked verifiers ensures scalability and legitimacy.
+-   **Hypercerts Integration** - Every 10 verified cleanups generates a permanent blockchain certificate (ERC-1155) aggregating cumulative impact data, portable across Web3 ecosystems.
+- **Global Network of Coordinated Action** - through our ambassador program, partner communities, and decentralized tech, we connect local cleanup efforts into one shared ecosystem - aligned, visible, and scalable across borders.
 
 ---
 
